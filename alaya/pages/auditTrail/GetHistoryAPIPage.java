@@ -23,7 +23,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class GetHistoryAPIPage extends MainClassAlaya{
 	
-	/** A method to get audit trail document name */
+	/** A method to get audit trail document name testing*/
 	
 	public static String getRandomDocName(String docType) {
 		ArrayList<String> docNames = CommonUtilityMethods.docListMap.get(docType);
